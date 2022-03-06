@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+
+.navbar{
+    /* background-color: aqua; */
+    
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+   padding-top: 50px;
+   padding: 30px 0px;
+    position:fixed;
+    height: 150px;
+}
+.logo{
+    font-size: 42px;
+    color: aliceblue;
+    padding-left: 42px;
+    padding-right: 12px;
+    font-family: 'Abril Fatface' , cursive;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+    font-size: 23px;
+}
+
+.navbar .logo .a .menu{
+    color:aliceblue;
+    font-size: 35px;
+    font-weight: 200;
+
+
+}
+.menu{
+    padding-right: 30px;
+}
+.navbar .menu li{
+display:inline-block;
+}
+.navbar .menu li a{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.home{
+    background: url(./images/OIP.jfif) no-repeat center center fixed;
+    /* position: fixed; */
+    color: black;
+     height: 100vh;
+    display: flex;
+    min-height: 500px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+    
+}
+.home-content{
+    text-align: center;
+   
+    margin: 0 auto;
+    color: aliceblue;
+    margin-top: 250px;
+    
+    margin-left: 200px;
+}
+.text1{
+   
+    font-size: 32px;
+}
+.text2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 52px;
+}
+.text3{
+    font-size: 32px;
+   
+    
+}
+.dp{
+    width: 400px;
+    margin-top: 150px;
+    font-size: 42px;
+    margin-left: 200px;
+    border-radius: 50%;
+    
+}
+.max-width{
+    display:inline-flex;
+    
+}
+.eng{
+    color: crimson;
+    animation: typewriter 2s steps(13) infinite alternate,
+    blink 800ms steps(13) infinite normal;
+    border-right: 5px solid crimson;
+}
+
+        
+        .typewriter-text {
+            color: crimson;           
+           margin-left: 180px;
+            display: flex;
+              overflow: hidden;
+              letter-spacing: 2px;
+             animation: typing 5s steps(30, end), blink .75s step-end infinite;
+            white-space: nowrap;
+            font-size: 30px;
+            font-weight: 700;
+            border-right: 4px solid crimson;
+            box-sizing: border-box;
+        }
+        
+        @keyframes typing {
+            from { 
+                width: 0% 
+            }
+            to { 
+                width: 100% 
+            }
+        }
+        
+        @keyframes blink {
+            from, to { 
+                border-color: transparent 
+            }
+            50% { 
+                border-color: orange; 
+            }
+        }
+        .logo:hover{
+color: crimson;
+        }
+        .bio{
+            color: aliceblue;
+            font-family: 'Abril Fatface', cursive;
+    width: inherit;
+    position: inherit;
+    margin:auto;
+    margin-top: 25px;
+    font-size: 20px;
+        }
+
